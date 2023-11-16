@@ -8,3 +8,10 @@ a = "hello"
 print(a, "is of type", type(a))
 print(a, "is of type", type(a), isinstance(a, int))
 print("hello")
+fruits = []
+fruits.insert(1, "Apple")
+fruits.insert(2, "Mango")
+fruits.insert(0, "Orange")
+del fruits[0]
+fruits.clear()
+print(fruits)
