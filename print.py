@@ -7,3 +7,4 @@ function_()
 a = "hello"
 print(a, "is of type", type(a))
 print(a, "is of type", type(a), isinstance(a, int))
+print("hello")
